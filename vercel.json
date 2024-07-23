@@ -1,0 +1,9 @@
+{
+    "functions": {
+      "api/main": {
+        "runtime": "python3.9",
+        "memory": 128
+      }
+    }
+  }
+  
