@@ -48,11 +48,11 @@ async def submit_form(form_data: FormData):
         body = f"""
             <html>
             <body>
-                <p><b>Name:</b> {form_data.name}</p>
-                <p><b>Score:</b> {form_data.score}</p>
-                <p><b>Address:</b> {form_data.address}</p>
-                <p><b>Phone:</b> {form_data.phone}</p>
-                <p><b>Course:</b> {form_data.course}</p>
+                <p><b>Name:</b>  {form_data.name}</p>
+                <p><b>Score:</b>  {form_data.score}</p>
+                <p><b>Address:</b>  {form_data.address}</p>
+                <p><b>Phone:</b>  {form_data.phone}</p>
+                <p><b>Course:</b>   {form_data.course}</p>
             </body>
             </html>
         """
